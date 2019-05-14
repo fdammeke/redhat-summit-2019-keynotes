@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Red Hat Summit 2019 Boston - Keynotes - Fabian Dammekens</title>
+
+		<link rel="stylesheet" href="reveal.js/css/reset.css">
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/lib/css/monokai.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <!-- day 1 -->
+        <section data-markdown>
+          ![Red Hat Summit 2019 logo](rh-summit-2019.png)
+          ## Day 1
+        </section>
+        <section data-markdown="content/day1-modern_cloud_native_apps.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day1-whats_new_in_rhel8.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day1-audit_openshift.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+
+        <!-- day 2 -->
+        <section data-markdown>
+          ![Red Hat Summit 2019 logo](rh-summit-2019.png)
+          ## Day 2
+        </section>
+        <section data-markdown="content/day2-production_ready_containers.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day2-openshift4.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day2-openshift_automated_project_provisioning.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day2-ansible_netapp.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+
+        <!-- day 3 -->
+        <section data-markdown>
+          ![Red Hat Summit 2019 logo](rh-summit-2019.png)
+          ## Day 3
+        </section>
+        <section data-markdown="content/day3-ansible_aci.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day3-openshift_high_volume_transactions.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day3-deutsche_bank_openshift.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day3-hybrid_cloud_monitoring.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+			</div>
+		</div>
+
+		<script src="reveal.js/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal.js/plugin/markdown/marked.js' },
+					{ src: 'reveal.js/plugin/markdown/markdown.js' },
+					{ src: 'reveal.js/plugin/notes/notes.js', async: true },
+					{ src: 'reveal.js/plugin/print-pdf/print.js', async: true },
+					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
