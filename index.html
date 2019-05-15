@@ -36,34 +36,67 @@
           #### Source on [GitHub](https://github.com/cegeka/redhat-summit-2019-keynotes)
           #### Hosted on [OpenShift](https://www.openshift.com/)
         </section>
+
         <!-- day 1 -->
         <section data-markdown data-state="no-title-footer">
           ![Red Hat Summit 2019 logo](rh-summit-2019.png)
           ## Day 1
         </section>
-        <section data-markdown="content/day1-modern_cloud_native_apps.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day1-whats_new_in_rhel8.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day1-audit_openshift.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day1-modern_cloud_native_apps.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
+        <section data-markdown="content/day1-whats_new_in_rhel8.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
+        <section data-markdown="content/day1-audit_openshift.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
 
         <!-- day 2 -->
         <section data-markdown data-state="no-title-footer">
           ![Red Hat Summit 2019 logo](rh-summit-2019.png)
           ## Day 2
         </section>
-        <section data-markdown="content/day2-production_ready_containers.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day2-openshift4.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day2-openshift_automated_project_provisioning.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day2-ansible_netapp.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day2-production_ready_containers.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8"></section>
+        <section data-markdown="content/day2-openshift4.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
+        <section data-markdown="content/day2-openshift_automated_project_provisioning.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
+        <section data-markdown="content/day2-ansible_netapp.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
 
         <!-- day 3 -->
         <section data-markdown data-state="no-title-footer">
           ![Red Hat Summit 2019 logo](rh-summit-2019.png)
           ## Day 3
         </section>
-        <section data-markdown="content/day3-ansible_aci.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day3-openshift_high_volume_transactions.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day3-deutsche_bank_openshift.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
-        <section data-markdown="content/day3-hybrid_cloud_monitoring.md" data-separator="\n---\n" data-separator-vertical="\n--\n" data-separator-notes="^Note:" data-charset="utf8"></section>
+        <section data-markdown="content/day3-ansible_aci.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
+        <section data-markdown="content/day3-openshift_high_volume_transactions.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
+        <section data-markdown="content/day3-deutsche_bank_openshift.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
+        <section data-markdown="content/day3-hybrid_cloud_monitoring.md"
+          data-separator="\n---\n" data-separator-vertical="\n--\n"
+          data-charset="utf8">
+        </section>
 			</div>
 		</div>
 
@@ -74,6 +107,10 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
 				dependencies: [
 					{ src: 'reveal.js/plugin/markdown/marked.js' },
 					{ src: 'reveal.js/plugin/markdown/markdown.js' },
